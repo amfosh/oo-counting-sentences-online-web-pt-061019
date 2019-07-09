@@ -8,5 +8,10 @@ class String
     self.ends_with?("?")
   end
   
+  def exclaimation?
+    self.ends_with?("!")
+  end
   
+  def count_sentences
+    
 end
